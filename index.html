@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LuxerraCars - Conciergerie automobile de luxe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: #333;
+      background-color: #fff;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1549921296-3a4a7c4f3328?auto=format&fit=crop&w=1950&q=80') center/cover no-repeat;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 20px 0;
+    }
+    header a {
+      background-color: #c5a66f;
+      padding: 12px 24px;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .columns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      flex: 1 1 250px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    footer {
+      background-color: #111;
+      color: #eee;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    footer a {
+      color: #c5a66f;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LuxerraCars</h1>
+    <p>Confiez votre voiture de luxe à notre conciergerie et générez des revenus sans effort.</p>
+    <a href="#contact">Confier mon véhicule</a>
+  </header>
+
+  <section>
+    <h2 class="section-title">Pourquoi choisir LuxerraCars ?</h2>
+    <div class="columns">
+      <div class="card">
+        <h3>Gestion complète</h3>
+        <p>Nous nous occupons de la mise en ligne, des contrats, du nettoyage et de la remise des clés.</p>
+      </div>
+      <div class="card">
+        <h3>Clients triés sur le volet</h3>
+        <p>Nous sélectionnons les locataires avec soin pour garantir la sécurité de votre véhicule.</p>
+      </div>
+      <div class="card">
+        <h3>Revenus mensuels</h3>
+        <p>Recevez des paiements réguliers en toute transparence, sans gestion de votre part.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Comparatif des options</h2>
+    <div class="columns">
+      <div class="card">
+        <h3>Sans conciergerie</h3>
+        <ul>
+          <li>Temps perdu</li>
+          <li>Gestion complexe</li>
+          <li>Risque élevé</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Agence classique</h3>
+        <ul>
+          <li>Moins de transparence</li>
+          <li>Frais cachés</li>
+          <li>Moins de contrôle</li>
+        </ul>
+      </div>
+      <div class="card" style="border: 2px solid #c5a66f;">
+        <h3><strong>LuxerraCars</strong></h3>
+        <ul>
+          <li>100% clé en main</li>
+          <li>Contrôle total</li>
+          <li>Rentabilité optimale</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Comment ça fonctionne ?</h2>
+    <div class="steps">
+      <div class="card">
+        <h3>1. Inscription</h3>
+        <p>Soumettez votre véhicule via notre formulaire en ligne.</p>
+      </div>
+      <div class="card">
+        <h3>2. Validation</h3>
+        <p>Nous évaluons si votre voiture correspond à nos critères.</p>
+      </div>
+      <div class="card">
+        <h3>3. Contrat</h3>
+        <p>Nous signons un contrat clair et sécurisé ensemble.</p>
+      </div>
+      <div class="card">
+        <h3>4. Paiement</h3>
+        <p>Recevez des revenus chaque mois sans vous soucier de la gestion.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Témoignages</h2>
+    <div class="columns">
+      <div class="card">
+        <p>“Grâce à LuxerraCars, ma voiture me rapporte chaque mois sans que j’aie à lever le petit doigt.”</p>
+        <p><strong>– Thomas M.</strong></p>
+      </div>
+      <div class="card">
+        <p>“Service pro, locataires fiables, et très bon retour sur investissement.”</p>
+        <p><strong>– Yasmine K.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Vous souhaitez confier votre véhicule ?</h2>
+    <div style="text-align: center;">
+      <a href="mailto:contact@luxerracars.fr" style="background:#c5a66f; padding:15px 30px; border-radius:5px; color:white; font-weight:bold; text-decoration:none;">Contactez-nous</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 LuxerraCars. Tous droits réservés.</p>
+    <p>
+      <a href="#">Mentions légales</a> |
+      <a href="#">Politique de confidentialité</a>
+    </p>
+    <p>Suivez-nous :
+      <a href="#">Instagram</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">TikTok</a>
+    </p>
+  </footer>
+
+</body>
+</html>
